@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input {
+    height: 100%;
+    width: 50%;
+}
+.input__txtarea {
+    height: 80%;
+    width: 100%;
+}
+.input__btnrow {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    text-align:center;
+    margin-top: auto;
+    width: 25%;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    height: 2rem;
+    text-overflow-mode: clip;
+}
+button:hover {
+    background-color: #97a7b0;
+}
+.form {
+    height: 100%;
+    width: 50%;
+    margin-left: 3rem;
+}
+form > div + div {
+    margin-top: 15px;
+}
+title {
+    display: block;
+    font-size: 18pt;
+}
